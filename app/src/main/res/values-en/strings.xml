@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SendMessageEN</string>
+    <string name="TvUserInfo">shows user information</string>
+    <string name="TvMessageText">message information</string>
+    <string name="tvTitleMessage">write a message</string>
+    <string name="mal_title_about">Personal information</string>
+</resources>

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.example.ViewBinding"},{"l":"com.example.ViewBinding.data"}];updateSearchResults();

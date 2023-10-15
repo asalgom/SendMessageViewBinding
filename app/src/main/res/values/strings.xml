@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SendMessageViewBinding</string>
+    <string name="TvUserInfo">muestra la informacion del usuario</string>
+    <string name="TvMessageText">informacion del mensaje</string>
+    <string name="tvTitleMessage">escribe un mensaje</string>
+    <string name="menu_About" translatable="false">About Us</string>
+    <string name="mal_title_about">Información personal</string>
+</resources>
