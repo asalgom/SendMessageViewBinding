@@ -32,4 +32,8 @@ En el concepto de ciclos de vida de un activity vimos los metodos callback que s
 
 ![SendMessageActivity](SendMessageActivity.png)
 
+![ViewActivity](ViewActivity.png)
 
+![AboutUsActivity](AboutUsActivity.png)
+
+![RepositoriodesdeAboutUsActivity](Repositorio GitHubdesde AboutUsActivity.png)
