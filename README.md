@@ -36,4 +36,4 @@ En el concepto de ciclos de vida de un activity vimos los metodos callback que s
 
 ![AboutUsActivity](AboutUsActivity.png)
 
-![RepositoriodesdeAboutUsActivity](Repositorio GitHubdesde AboutUsActivity.png)
+![RepositoriodesdeAboutUsActivity](RepositorioGitHubdesdeAboutUsActivity.png)
