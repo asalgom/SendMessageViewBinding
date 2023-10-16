@@ -10,7 +10,7 @@ El objetivo de este ejercicio es crear una aplicacion con varios activity que co
 
 
 
-# Usando el logcat y los metodoa callback
+# Usando el logcat y los metodos callback
 
 Tambien vimos una herramienta que es bastante util que es el logcat que muestra información detallada sobre el funcionamiento de una aplicación Android mientras se está ejecutando en un dispositivo o emulador.
 Con esta herramiento podemos ver errores que normalmente no podemos ver por ejemplo cuando queremos pulsar el boton para enviar el mensaje que hemos escrito en el SendMessageActivity y luego se nos cierra la aplicacion eso es porque ha ocurrido una excepcion eso lo podemos mirar en el logcat para saber que tipo de excepcion es y quien lo ha causado, asi podemos arreglar esos problemas. Tambien nos permite filtrar registros en función de etiquetas, niveles de prioridad y texto, lo que facilita la búsqueda de información específica en el registro.
