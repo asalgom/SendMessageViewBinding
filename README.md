@@ -28,6 +28,8 @@ En el concepto de ciclos de vida de un activity vimos los metodos callback que s
 # Creando el About Us
 
 
-# Capturas de pantalla de la aplicacion 
+# Capturas de pantalla de la aplicacion SendMessageViewBinding
+
+![SendMessageActivity](SendMessageActivity.png)
 
 
