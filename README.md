@@ -32,6 +32,7 @@ Despues decidimos crear una copia de la aplicacion SendMessage como otro variant
 Para terminar hariamos un activity AboutUs que consite en mostrar el autor de la aplicacion, enlace al repositorio remoto de GitHub y la version, hemos seguido en clase dos tutoriales para hacer este apartado que son primero para hacer el AboutUs un repositorio remoto con un tutorial para hacer el hacer el about y luego en AndroidDeveloper para hacer el menu que tendra el about:
 
 https://github.com/daniel-stoneuk/material-about-library
+
 https://developer.android.com/guide/topics/ui/menus?hl=es-419#java
 
 # Capturas de pantalla de la aplicacion SendMessageViewBinding
