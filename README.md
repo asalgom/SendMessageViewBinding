@@ -1,6 +1,6 @@
 # SendMessageViewBinding
 
-El objetivo de este ejercicio es crear una aplicacion con varios activity que consiste en escribir un mensaje y luego enviarlo a otra activity usando intents y bundle y viendo como funcionan los metodos callback
+El objetivo de este ejercicio es crear una aplicacion con varios activity que consiste en escribir un mensaje y luego enviarlo a otra activity usando intents y bundle y viendo como funcionan los metodos callback y creando otra variente usando el ViewBinding
 
 # Empezando a crear la aplicacion SendMessage
 
