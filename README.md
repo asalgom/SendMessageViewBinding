@@ -25,7 +25,7 @@ Vimos tambien como usar Debub Brigde que es una herramienta muy util para ver la
 
 # Creando variante SendMessageViewBinding
 
-Despues decidimos crear una copia de la aplicacion SendMessage como otro variante que le llamamos SendMessageViewBinding, aqui dejaremos de usar el metodo findViewById en lugar de eso usaremos el ViewBinding que nos permite vincular de manera más eficiente las vistas en el archivo de diseño XML con el código Java o Kotlin que controla la lógica de la interfaz de usuario. Por eso dejariamos de usar findViewById para obtener referencias a las vistas, lo que puede ser propenso a errores y poco eficiente en términos de rendimiento. Tambien vimos como poner una fuente de texto nueva a la aplicacion y de poner otra activity diferente para cuando la aplicacion este en horizontal
+Despues decidimos crear una copia de la aplicacion SendMessage como otro variante que le llamamos SendMessageViewBinding, aqui dejaremos de usar el metodo findViewById en lugar de eso usaremos el ViewBinding que nos permite vincular de manera más eficiente las vistas en el archivo de diseño XML con el código Java o Kotlin que controla la lógica de la interfaz de usuario. Por eso dejariamos de usar findViewById para obtener referencias a las vistas, lo que puede ser propenso a errores y poco eficiente en términos de rendimiento. Tambien vimos como poner una fuente de texto nuevo a la aplicacion y de poner otra activity diferente para cuando la aplicacion este en horizontal
 
 # Creando el About Us
 
