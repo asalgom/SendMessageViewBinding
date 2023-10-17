@@ -10,7 +10,7 @@ Se creara tambien dos clases Person y Message los usaremos para crear objetos de
 
 # Usando los intent y bundle
 
-Ahora usaremos los intent que se utilizan para iniciar componentes, pasar datos entre componentes y realizar otras acciones en nuestra aplicacion. y bundle que es un contenedor de datos utilizado para pasar datos entre componentes de una aplicación, generalmente entre actividades o fragmentos, los usaremos para que las dos activity se puedan comunicar, en SendMessage se usara el intent para comunicarnos con ViewActivity y luego un bundle que sera el contendido de los objetos de persona y mensaje. En ViewActivity recogemos los datos del SendActivity con el metodo getIntent().getExtras() con el message recogido del Bundle usamos las variables para mostrar el mensaje y los datos del usuario en el ViewActivity
+Ahora usaremos los intent que se utilizan para iniciar componentes, pasar datos entre componentes y realizar otras acciones en nuestra aplicacion. y bundle que es un contenedor de datos utilizado para pasar datos entre componentes de una aplicación, generalmente entre actividades o fragmentos, los usaremos para que las dos activity se puedan comunicar, en SendMessage se usara el intent para comunicarnos con ViewActivity y luego un bundle que sera el contendido de los objetos de persona y mensaje. En ViewActivity recogemos los datos del SendActivity con el metodo getIntent().getExtras() con el mensaje recogido del Bundle usamos las variables para mostrar el mensaje y los datos del usuario en el ViewActivity
 
 # Usando el logcat y los metodos callback
 
