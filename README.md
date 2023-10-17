@@ -1,14 +1,16 @@
 # SendMessageViewBinding
 
-El objetivo de este ejercicio es crear una aplicacion con varios activity que consiste en escribir un mensaje y luego enviarlo a otra activity
+El objetivo de este ejercicio es crear una aplicacion con varios activity que consiste en escribir un mensaje y luego enviarlo a otra activity usando intents y bundle y viendo como funcionan los metodos callback
 
 # Empezando a crear la aplicacion SendMessage
 
+La aplicacion consistira de una activity SendMessage que tendra un TextView con un EditText que podremos escribir un mensaje, un boton para enviar el mensaje que hemos escrito antes a una activity que sera ViewActivity se mostrara la informacion del receptor del mensaje y abajo se mostrara el mensaje junto al receptor del mensaje
 
+Se creara tambien dos clases Person y Message los usaremos para crear objetos de persona y de mensaje.
 
 # Usando los intent y bundle
 
-
+Ahora usaremos los intent que se utilizan para iniciar componentes, pasar datos entre componentes y realizar otras acciones en nuestra aplicacion. y bundle que es un contenedor de datos utilizado para pasar datos entre componentes de una aplicación, generalmente entre actividades o fragmentos, los usaremos para que las dos activity se puedan comunicar, en SendMessage se usara el intent para comunicarnos con ViewActivity y luego un bundle que sera el contendido de los objetos de persona y mensaje. En ViewActivity recogemos los datos del SendActivity con el metodo getIntent().getExtras() con el message recogido del Bundle usamos las variables para mostrar el mensaje y los datos del usuario en el ViewActivity
 
 # Usando el logcat y los metodos callback
 
@@ -19,14 +21,18 @@ En el concepto de ciclos de vida de un activity vimos los metodos callback que s
 
 # Viendo la depuracion paso a paso
 
-
+Vimos tambien como usar Debub Brigde que es una herramienta muy util para ver la ejecucion de nuestra aplicacion paso a paso podemos ver tambien las expresiones que tendra en toda la ejecucion de la aplicacion. Tambien sirve para ver si tenemos errores en el codigo para saber que punto exacto de la ejecucion del codigo ha dado ese error, usaremos puntos de interrupcion para hacer que el la ejecucion de la aplicacion se pare y luego ver la ejecucion paso a paso.
 
 # Creando variante SendMessageViewBinding
 
-
+Despues decidimos crear una copia de la aplicacion SendMessage como otro variante que le llamamos SendMessageViewBinding, aqui dejaremos de usar el metodo findViewById en lugar de eso usaremos el ViewBinding que nos permite vincular de manera más eficiente las vistas en el archivo de diseño XML con el código Java o Kotlin que controla la lógica de la interfaz de usuario. Por eso dejariamos de usar findViewById para obtener referencias a las vistas, lo que puede ser propenso a errores y poco eficiente en términos de rendimiento. Tambien vimos como poner una fuente de texto nueva a la aplicacion y de poner otra activity diferente para cuando la aplicacion este en horizontal
 
 # Creando el About Us
 
+Para terminar hariamos un activity AboutUs que consite en mostrar el autor de la aplicacion, enlace al repositorio remoto de GitHub y la version, hemos seguido en clase dos tutoriales para hacer este apartado que son primero para hacer el AboutUs un repositorio remoto con un tutorial para hacer el hacer el about y luego en AndroidDeveloper para hacer el menu que tendra el about:
+
+https://github.com/daniel-stoneuk/material-about-library
+https://developer.android.com/guide/topics/ui/menus?hl=es-419#java
 
 # Capturas de pantalla de la aplicacion SendMessageViewBinding
 
